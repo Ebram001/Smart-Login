@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!--CSS Files  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container text-center shadow-lg w-75 mt-5 py-5">
+      <div><h1>Smart Login System</h1></div>
+      <div class="">
+      <input type="text" name="userEmail" id="userEmail" class="form-control w-75 m-auto my-4 text-body text-white" placeholder="Enter Your Email">
+      <input type="password" name="userPassword" id="userPass" class="form-control w-75 m-auto my-4 text-white" placeholder="Enter Your Password">
+      <button id="logIn" onclick="logIn()" class="btn w-75 border my-4 btn-outline-info border-info">Login</button>
+      <h3 class="fs-5">Don't have an account? <a href="signUp.html">Sign Up</a></h3>
+      </div>
+    </div>
+
+  <script src="JS/script.js"></script>
+  <script src="JS/sweetalert2.min.js"></script>
+</body>
+</html>
