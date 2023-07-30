@@ -8,7 +8,7 @@ let emailPattern = /@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 let passPattern = /^[0-9]{4,}[A-Za-z]{3,}$/
   var userData = []
   function addData() {
-    if (namePattern.test(userNameInput.value)) {
+    if (!namePattern.test(userNameInput.value)) {
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
